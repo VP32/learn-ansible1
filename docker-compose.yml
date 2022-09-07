@@ -8,3 +8,7 @@ services:
     image: pycontribs/centos:7
     tty: true
     container_name: centos7
+  fedora:
+    image: pycontribs/fedora
+    tty: true
+    container_name: fedora_host
